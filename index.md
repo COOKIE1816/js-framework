@@ -33,3 +33,8 @@ nfjwJs.dynamicVariable.declare(x,"This is my dynamic variable");
 
 nfjkwJs.dynamicVariable.declare("myVariable02","This is my dynamic variable number two!");
 ```
+If you enter a number to X, don't worry.. NFJKW.js will automatically convert number to string
+#### Rules for declaring a dynamic variable
+* Can not start by a number
+* Can contain only alphanumeric characters (no special characters) and "_"
+* Can not contain space bars
