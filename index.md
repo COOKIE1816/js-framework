@@ -31,10 +31,21 @@ Y symbolize dynamic variable's string
 var x = "myVariable";
 nfjwJs.dynamicVariable.declare(x,"This is my dynamic variable");
 
-nfjkwJs.dynamicVariable.declare("myVariable02","This is my dynamic variable number two!");
+nfjkwJs.dynamicVariable.declare("myVariable02","This is my dynamic variable number two!"); //btw. did you join my server? 
 ```
 If you enter a number to X, don't worry.. NFJKW.js will automatically convert number to string
 #### Rules for declaring a dynamic variable
 * Can not start by a number
 * Can contain only alphanumeric characters (no special characters) and "_"
 * Can not contain space bars
+### How to get variable content
+The fact, getting variable content can be useful is true. Do it by typing:
+```js
+nfjkwJs.dynamicVariable.getContext(X)
+```
+This will return dynamic variable content. X represents variable name here. 
+So there is an example:
+```js
+alert(nfjkwJs.dynamicVariable.getContext("myVariable"));
+```
+## Dynamic functions
