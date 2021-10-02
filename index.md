@@ -71,3 +71,18 @@ So x represents script's URL address. So for example, if we want to run index.js
 ```js
 nfjkwJs.dynamicFunction.runFromUrl("https://example.com/imdex.js");
 ```
+### Declaring a script
+```js
+nfjkwJs.dynamicFunction.create(x,y);
+```
+Here,	
+x represents function name and y represents script
+Example:
+```js
+nfjkwJs.dynamicFunction.create("myFunction","console.log(\"This is my new function\");");
+```
+
+### Running a declared script
+```js
+nfjkJs.dynamicFunction.execute("myFunction");
+```
