@@ -38,6 +38,7 @@ If you enter a number to X, don't worry.. NFJKW.js will automatically convert nu
 * Can not start by a number
 * Can contain only alphanumeric characters (no special characters) and "_"
 * Can not contain space bars
+
 ### How to get variable content
 The fact, getting variable content can be useful is true. Do it by typing:
 ```js
@@ -49,3 +50,5 @@ So there is an example:
 alert(nfjkwJs.dynamicVariable.getContext("myVariable"));
 ```
 ## Dynamic functions
+Same as Dynamic variables but declares JavaScript functions instead of variables. 
+You can even run script directly without declaring it. Like JavaScript console. 
