@@ -86,3 +86,16 @@ nfjkwJs.dynamicFunction.create("myFunction","console.log(\"This is my new functi
 ```js
 nfjkJs.dynamicFunction.execute("myFunction");
 ```
+## Simulating logic gates
+You can also simulate [logic gates](http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/gatesfunc/index.html).
+Syntax:
+```js
+nfjkwJs.logic.simulateGates(gate,a,b)
+```
+Gate represents logic gate type
+A represents pin "A" of logic gate
+B represents pin "B" of logic gate
+### How to use that
+It returns false(0) or true(1)
+Use false instead of 0
+And true instead of 1
