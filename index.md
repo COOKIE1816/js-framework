@@ -99,3 +99,8 @@ B represents pin "B" of logic gate
 It returns false(0) or true(1)
 Use false instead of 0
 And true instead of 1
+### which logic gates can be simulated
+* AND
+* OR
+* NOT
+
