@@ -62,3 +62,12 @@ nfjkwJs.dynamicFunction.run("console.log(\"hello world\")");
 ATTENTION: LOADING SCRIPTS OF SOME PEOPLE CAN BE ILLEGAL SO PLEASE READ LICENSES.
 BROKING THEIR RIGHTS IS NOT MY FAULT!
 ```
+Hope you understand attention. Now we're going to show you how to load function from URL addresses and running them directly. 
+So this causes running directly scripts loaded from world wide web:
+```js
+nfjkwJs.dynamicFunction.runFromUrl(x);
+```
+So x represents script's URL address. So for example, if we want to run index.js on example.com, we use this:
+```js
+nfjkwJs.dynamicFunction.runFromUrl("https://example.com/imdex.js");
+```
