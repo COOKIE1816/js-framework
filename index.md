@@ -20,3 +20,16 @@ nfjkwJs.startUp();
 On other pages, use ```false``` instead of ```true``` on 2.line.
 Run index.html. If everything works fine, you will see this:
 <img src="https://github.com/COOKIE1816/js-framework/blob/main/framework-APIs/.media/image191.png">
+## Dynamic variables
+NFJKW.js has a "dynamic variables". They are the same as variables but you can use variable's string as an name easily without writing extra scripts to document. 
+### How to declare a variable
+Variables can be declared using ```nfjwJs.dynamicVariable.declare("x","y")```
+X symbolize variable name. You can use variable content or enter a string. 
+Y symbolize dynamic variable's string
+```js
+//Examples:
+var x = "myVariable";
+nfjwJs.dynamicVariable.declare(x,"This is my dynamic variable");
+
+nfjkwJs.dynamicVariable.declare("myVariable02","This is my dynamic variable number two!");
+```
