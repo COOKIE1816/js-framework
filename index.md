@@ -52,3 +52,13 @@ alert(nfjkwJs.dynamicVariable.getContext("myVariable"));
 ## Dynamic functions
 Same as Dynamic variables but declares JavaScript functions instead of variables. 
 You can even run script directly without declaring it. Like JavaScript console. 
+### Running scripts directly
+You can run your script directly. Just use this:
+```js
+nfjkwJs.dynamicFunction.run("console.log(\"hello world\")");
+```
+### Loading scripts from URLs and running them directly
+```yellow
+ATTENTION: LOADING SCRIPTS OF SOME PEOPLE CAN BE ILLEGAL SO PLEASE READ LICENSES.
+BROKING THEIR RIGHTS IS NOT MY FAULT!
+```
