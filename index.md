@@ -148,3 +148,39 @@ Output will be automatically saved to nfjkw variable.
 nfjkwJs.time.getSaved(format);
 ```
 format represents [time format](https://cookie1816.github.io/js-framework/help/timeFormats)
+
+So here's an example (let me know how much i said an example xd) :
+```js
+nfjkwJs.time.getCurrent();
+var x = "It is " + nfjkwJs.time.getSaved("hh:mm") + "o\'clock";
+alert(x);
+```
+### A Timed Loop
+```js
+nfjkwJs.timedLoop(times,delay,functionName);
+```
+* times represents how much times will it run (0 is for infinity)
+* delay represent delay between two loops (in milliseconds, max. 775520 ms)
+* functionName represents name of executed function
+
+*In loop, you can use* ```nfjkwJs.breakLoop()``` *method*
+
+Here are examples
+```js
+var x = 0;
+function myLoop(){
+  x++;
+  console.log(string(x));
+}
+nfjkwJs.timedLoop(10,1000,"myLoop");
+
+//here's an infinite loop below 
+var x = 0;
+function myLoopTwo(){ 
+  x++;
+  console.log(string(x));
+  if (x => 10) {
+    nfjkwJs.breakLoop();     // Used to break a loop
+  }
+}
+```
