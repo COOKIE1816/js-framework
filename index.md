@@ -145,5 +145,5 @@ nfjkwJs.time.getCurrent();
 Output will be automatically saved to nfjkw variable. 
 ### Getting current time and saving it to variable
 ```js
-nfjkwJs.time.getSaved(<format>);
+nfjkwJs.time.getSaved(format);
 ```
