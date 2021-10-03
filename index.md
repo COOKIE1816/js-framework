@@ -183,4 +183,5 @@ function myLoopTwo(){
     nfjkwJs.breakLoop();     // Used to break a loop
   }
 }
+nfjkwJs.timedLoop(0,1000,"myLoopTwo");
 ```
