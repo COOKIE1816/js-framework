@@ -147,3 +147,4 @@ Output will be automatically saved to nfjkw variable.
 ```js
 nfjkwJs.time.getSaved(format);
 ```
+format represents [time format](https://cookie1816.github.io/js-framework/help/timeFormats)
