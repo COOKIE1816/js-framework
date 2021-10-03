@@ -104,3 +104,32 @@ And true instead of 1
 * OR
 * NOT
 
+## Setting framework to save logged events to a variable
+You can set NFJKW.js to save events logged with ```nfjkwJs.logger.catchTo()``` method. Just use this:
+```js
+nfjkwJs.logger.catchTo(x);
+```
+This sets variable where logged events will be written. 
+x represents variable name (in string)
+```js
+//here's an example
+nfjkwJs.logger.catchTo("myVariable");
+```
+## Logging events
+You can log events using this:
+```js
+nfjkwJs.logger.print(x);
+```
+x represents a string which will be outputed to set variable. You have an example here:
+```js
+nfjkwJs.logger.print("Hello world!");
+```
+This will also output x to console by defaults. 
+To disable outputing x to console type this:
+```js
+var nfjkwJs.logger.consoleOutput = false;
+```
+Or you can enable it again using
+```js
+var nfjkwJs.logger.consoleOutput = true;
+```
