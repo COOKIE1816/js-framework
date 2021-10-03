@@ -118,11 +118,14 @@ nfjkwJs.logger.catchTo("myVariable");
 ## Logging events
 You can log events using this:
 ```js
-nfjkwJs.logger.print(x);
+nfjkwJs.logger.print(y,x);
 ```
-x represents a string which will be outputed to set variable. You have an example here:
+x represents a string which will be outputed to set variable.
+y represents status. E is for error and T is for normal text
+You have an example here:
+
 ```js
-nfjkwJs.logger.print("Hello world!");
+nfjkwJs.logger.print("T","Hello world!");
 ```
 This will also output x to console by defaults. 
 To disable outputing x to console type this:
@@ -132,4 +135,15 @@ var nfjkwJs.logger.consoleOutput = false;
 Or you can enable it again using
 ```js
 var nfjkwJs.logger.consoleOutput = true;
+```
+## Working with time
+Using ```nfjkwJs.time```
+### Getting current time
+```js
+nfjkwJs.time.getCurrent();
+```
+Output will be automatically saved to nfjkw variable. 
+### Getting current time and saving it to variable
+```js
+nfjkwJs.time.getSaved(<format>);
 ```
